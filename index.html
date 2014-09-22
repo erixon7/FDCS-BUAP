@@ -2,62 +2,107 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>jQuery Mobile Web App</title>
-<link href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
-<script src="http://code.jquery.com/jquery-1.6.4.min.js" type="text/javascript"></script>
-<script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<title>Facultad de Derecho y Ciencias Sociales de la BUAP</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+<link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script src="http://debug.build.phonegap.com/client/#747b48ac-9852-11e3-8d2a-22000a98b3d6"></script>
+<script src="phonegap-1.1.0.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<style type="text/css">
+body,td,th {
+}
+</style>
 </head> 
 <body> 
 
 <div data-role="page" id="page">
 	<div data-role="header">
-		<h1>Page One</h1>
+		<h1>BIENVENIDO</h1>
 	</div>
+    <div id="total">
+    <div id="cabecera">
+    	<div class="FL">
+        <a href="http://www.itic.com.mx"><img src="img/fdcs-badge.png"/></a>
+        </div>
+        <div class="FR">
+        <ul>
+        <li><a href="https://www.facebook.com/itic.tu.apoyo.tecnologico"><img src="img/facebook.png" width="50px" alt="facebook"/></a></li>
+        <li><a href="https://twitter.com/itic7"><img src="img/twitter.png" width="50px" alt="twitter"/></a></li>
+        </ul>
+    	</div>
+      </div>
+      	  <div class="contenido">
+Muchas gracias por descargar esta aplicación te invitamos a que estes al pendiente pues proximamente podras checar todo lo referente a tu Facultad, en la Aplicación version 2.0
+          </div>
+
+<div class="ui-grid-a">
+      <div class="ui-block-a"><a href="#page2" class="botton">ORGANIGRAMA</a></div>
+      <div class="ui-block-b"><a href="#page3" class="botton">ANUNCIOS</a></div>
+      <div class="ui-block-a"><a href="#page4" class="botton">EVENTOS</a></div>
+      <div class="ui-block-b"><a href="#page5" class="botton">MAPA</a></div>
+      <div class="ui-block-a"><a href="#page6" class="botton">BECAS</a></div>
+      <div class="ui-block-b"><a href="#page7" class="botton">BIBLIOTECA</a></div>
+      <div class="ui-block-a"><a href="#page8" class="botton">BOLSA DE TRABAJO</a></div>
+      <div class="ui-block-b"><a href="#page9" class="botton">CONTACTO</a></div>
+    </div>
+
 	<div data-role="content">	
 		<ul data-role="listview">
-			<li><a href="#page2">Page Two</a></li>
-            <li><a href="#page3">Page Three</a></li>
-			<li><a href="#page4">Page Four</a></li>
+			<li><a href="#page2">ORGANIGRAMA</a></li>
+            <li><a href="#page3">ANUNCIOS FDCS</a></li>
+			<li><a href="#page4">EVENTOS</a></li>
+			<li><a href="#page5">MAPA INTERACTIVO</a></li>
+            <li><a href="#page6">BECAS</a></li>
+			<li><a href="#page7">BIBLIOTECA</a></li>
+			<li><a href="#page8">BOLSA DE TRABAJO</a></li>
 		</ul>		
 	</div>
+    </div>
 	<div data-role="footer">
-		<h4>Page Footer</h4>
+		<h4><a href="http://www.itic.com.mx">APP Desarrollada por ITIC</a></h4>
 	</div>
 </div>
 
 <div data-role="page" id="page2">
 	<div data-role="header">
-		<h1>Page Two</h1>
+		<h1>ORGANIGRAMA</h1>
 	</div>
 	<div data-role="content">	
 		Content		
 	</div>
 	<div data-role="footer">
-		<h4>Page Footer</h4>
+		<div class="FL2"><h4><a href="http://www.itic.com.mx">APP Desarrollada por ITIC</a></h4></div>
+        <div class="FR2"><h4><img src="img/info_home.png" /><a href="tel:3318386905"><a href="#page"> Regresar</a></h4></div>
 	</div>
 </div>
 
 <div data-role="page" id="page3">
 	<div data-role="header">
-		<h1>Page Three</h1>
+		<h1>ANUNCIOS FDCS</h1>
 	</div>
 	<div data-role="content">	
 		Content		
 	</div>
 	<div data-role="footer">
-		<h4>Page Footer</h4>
+		<div class="FL2"><h4><a href="http://www.itic.com.mx">APP Desarrollada por ITIC</a></h4></div>
+        <div class="FR2"><h4><img src="img/info_home.png" /><a href="tel:3318386905"><a href="#page"> Regresar</a></h4></div>
 	</div>
 </div>
 
 <div data-role="page" id="page4">
 	<div data-role="header">
-		<h1>Page Four</h1>
+		<h1>EVENTOS</h1>
 	</div>
 	<div data-role="content">	
 		Content		
 	</div>
 	<div data-role="footer">
-		<h4>Page Footer</h4>
+		<div class="FL2"><h4><a href="http://www.itic.com.mx">APP Desarrollada por ITIC</a></h4></div>
+        <div class="FR2"><h4><img src="img/info_home.png" /><a href="tel:3318386905"><a href="#page"> Regresar</a></h4></div>
 	</div>
 </div>
 

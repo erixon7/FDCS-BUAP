@@ -1,0 +1,105 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{
+	background: transparent;
+	border: 0;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+}
+a{
+	text-decoration: none
+}
+.oc{display:none}
+
+
+.FL{
+	float: left;
+	font-size: 16px;
+	padding-bottom: 5px;
+	padding-left: 25px;
+	padding-right: 5px;
+	padding-top: 15px;
+}
+.FR {
+	float: right;
+	font-size: 16px;
+	padding-bottom: 15px;
+	padding-left: 5px;
+	padding-right: 25px;
+	padding-top: 25px;
+}
+	.FR ul {float:right; text-decoration:none; padding-top:14px}
+	.FR li {float:left; display:inline; padding-left:10px; text-align:center}
+
+.FL2{
+	float: left;
+	font-size: 16px;
+	padding-bottom: 5px;
+	padding-left: 40px;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+.FR2{
+	float: right;
+	font-size: 14px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 50px;
+	padding-top: 0px;
+}
+
+
+#total {background:url(../img/bg2.png) no-repeat center center fixed; }
+
+	.contenido {padding-bottom: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+	}
+
+	#cabecera {
+	width: auto;
+	height: 130px
+}
+	
+	#contact {
+	width: auto;
+	height:120px;
+}
+	
+.none {
+	height: 20px
+}
+
+.botton {display: block;
+	width: auto;
+	margin: 10px auto;
+	padding: 15px;
+	border: 1px solid #469df5;
+	background: rgba(18,110,183,0.7);
+	text-align: center;
+	font: bold 18px MiNuevaFuente, verdana, sans-serif;
+	text-shadow: rgba(100,100,100,0.5) 1px 1px 1px;
+	border-top-left-radius: 23px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 23px;
+	border-bottom-left-radius: 0px;
+	max-width: 165px;
+	min-width: 100px;
+} 
+
+@font-face {
+	font-family: 'MiNuevaFuente';
+	src: url('font.ttf');
+}
+.botton:hover {
+	background:rgba(40,122,206,1);
+	
+}.botton:active {
+	position:relative;
+	top:1px;
+}
