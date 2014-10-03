@@ -53,7 +53,9 @@ a{
 }
 
 
-#total {background:url(../img/bg2.png) no-repeat center center fixed; }
+#total {background:url(../img/bg.jpg) no-repeat center center fixed; }
+
+#escudo {background:url(../img/buap.png) no-repeat center center fixed; }
 
 	.contenido {padding-bottom: 15px;
 	padding-left: 25px;
@@ -102,4 +104,8 @@ a{
 }.botton:active {
 	position:relative;
 	top:1px;
+}
+
+iframe[seamless] { 
+    display: block;
 }
