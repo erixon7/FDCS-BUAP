@@ -5,20 +5,12 @@
     version   = "1.0.0">
 
 <name>FDCS BUAP</name>
-<icon src="img/icono.png" gap:paltform="android" gap:density="ldpi"/>
-<icon src="img/icono.png" gap:paltform="android" gap:density="mdpi"/>
-<icon src="img/icono.png" gap:paltform="android" gap:density="hdpi"/>
-<icon src="img/icono.png" gap:paltform="android" gap:density="xhdpi"/>
-
-<gap:splash src="img/smartcard_banner_vert.jpg" gap:platform="android" gap:density="ldpi" />
-<gap:splash src="img/smartcard_banner_vert.jpg" gap:platform="android" gap:density="mdpi" />
-<gap:splash src="img/smartcard_banner_vert.jpg" gap:platform="android" gap:density="hdpi" />
-<gap:splash src="img/smartcard_banner_vert.jpg" gap:platform="android" gap:density="xhdpi" />
+<icon src="res/icon.png" />
+<gap:splash src="img/smartcard_banner_vert.jpg" />
 
 <uses-permission android:name="android.permission.INTERNET"/>
 
 </feature>
-
 <description>
 Aplicación de la Facultad de Derecho y Ciencias Sociales de la BUAP.
 </description>
