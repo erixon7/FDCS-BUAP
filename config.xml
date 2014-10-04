@@ -6,8 +6,6 @@
 
 <name>FDCS BUAP</name>
 
-<uses-permission android:name="android.permission.INTERNET"/>
-
 <description>
 Aplicación de la Facultad de Derecho y Ciencias Sociales de la BUAP.
 </description>
