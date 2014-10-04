@@ -1,17 +1,34 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
     id        = "com.mx.itic.fdcs"
     version   = "1.0.0">
 
 <name>FDCS BUAP</name>
+<access origin=”http://www.derecho.buap.mx/”/>
+<icon src="img/icono.png" gap:paltform="android" gap:density="ldpi"/>
+<icon src="img/icono.png" gap:paltform="android" gap:density="mdpi"/>
+<icon src="img/icono.png" gap:paltform="android" gap:density="hdpi"/>
+<icon src="img/icono.png" gap:paltform="android" gap:density="xhdpi"/>
+
+<gap:splash src="img/smartcard_banner_vert.jpg" gap:platform="android" gap:density="ldpi" />
+<gap:splash src="img/smartcard_banner_vert.jpg" gap:platform="android" gap:density="mdpi" />
+<gap:splash src="img/smartcard_banner_vert.jpg" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="img/smartcard_banner_vert.jpg" gap:platform="android" gap:density="xhdpi" />
+
+<uses-permission android:name="android.permission.INTERNET"/>
+
+<feature name=”InAppBrowser”>
+<param name=”android-package” value=”org.apache.cordova.inappbrowser.InAppBrowser” />
+</feature>
 
 <description>
 Aplicación de la Facultad de Derecho y Ciencias Sociales de la BUAP.
 </description>
 <preference name="fullscreen" value="false" />
-<icon src="img/icono.png" />
-<gap:splash src="img/smartcard_banner_vert.jpg" />
+<preference name="permissions" value="all" />
+
+
 <author href="https://www.itic.com.mx" email="ecortes@itic.com.mx">
 Erick Cortés Roque
 </author>
