@@ -5,9 +5,7 @@
     version   = "1.0.0">
 
 <name>FDCS BUAP</name>
-<uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
 
 <description>
 Aplicación de la Facultad de Derecho y Ciencias Sociales de la BUAP.
