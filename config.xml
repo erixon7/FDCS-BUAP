@@ -10,8 +10,7 @@
 Aplicación de la Facultad de Derecho y Ciencias Sociales de la BUAP.
 </description>
 <preference name="fullscreen" value="false" />
-<preference name="permissions" value="all" />
-<icon src="res/icon.png" />
+<icon src="img/icono.png" />
 <gap:splash src="img/smartcard_banner_vert.jpg" />
 
 <author href="https://www.itic.com.mx" email="ecortes@itic.com.mx">
