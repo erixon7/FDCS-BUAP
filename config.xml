@@ -5,7 +5,6 @@
     version   = "1.0.0">
 
 <name>FDCS BUAP</name>
-<access origin=”http://www.derecho.buap.mx/”/>
 <icon src="img/icono.png" gap:paltform="android" gap:density="ldpi"/>
 <icon src="img/icono.png" gap:paltform="android" gap:density="mdpi"/>
 <icon src="img/icono.png" gap:paltform="android" gap:density="hdpi"/>
